@@ -50,11 +50,11 @@ global.location = process.env.GL_INFO || "Pakistan, Lahore, Sabzazar" //ur locat
 
 //new
 //________________________________________________________________________________________________________
-global.botname = process.env.BOT_NAME || 'XLICON-V3-MD' //ur bot name
+global.botname = process.env.BOT_NAME || 'BumBumBot' //ur bot name
 //________________________________________________________________________________________________________
-global.ownernumber = process.env.SUDO || '923184070915' //ur owner number
+global.ownernumber = process.env.SUDO || '2349063317053' //ur owner number
 //________________________________________________________________________________________________________
-global.ownername = process.env.SUDO_NAME || 'Salman Ahmad' //ur owner name
+global.ownername = process.env.SUDO_NAME || 'VibeLord' //ur owner name
 //________________________________________________________________________________________________________
 global.websitex = process.env.YT_LINK || "https://youtube.com/@s4salmanyt"
 //________________________________________________________________________________________________________
@@ -74,7 +74,7 @@ global.creator = process.env.GL_DEVS || "923184070915@s.whatsapp.net"
 //________________________________________________________________________________________________________
 global.xprefix = process.env.PREFIX || '.'
 //________________________________________________________________________________________________________
-global.premium = process.env.GL_VIP || ["923184070915"] // Premium User
+global.premium = process.env.GL_VIP || ["2349063317053"] // Premium User
 //________________________________________________________________________________________________________
 global.hituet = 0
 //________________________________________________________________________________________________________
