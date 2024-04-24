@@ -110,7 +110,7 @@ global.mess = {
     success: '_*Here you go!*_'
 }
 //thumbnail
-global.thumb = fs.readFileSync('https://telegra.ph/file/9187591983cb1736cee03.jpg')
+global.thumb = fs.readFileSync('./XliconMedia/theme/xliconpic.jpg')
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
