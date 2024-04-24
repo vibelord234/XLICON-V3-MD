@@ -50,7 +50,7 @@ global.location = process.env.GL_INFO || "Pakistan, Lahore, Sabzazar" //ur locat
 
 //new
 //________________________________________________________________________________________________________
-global.botname = process.env.BOT_NAME || 'BumBumBot...v1.2' //ur bot name
+global.botname = process.env.BOT_NAME || 'SexyBot...v1.0' //ur bot name
 //________________________________________________________________________________________________________
 global.ownernumber = process.env.SUDO || '2349063317053' //ur owner number
 //________________________________________________________________________________________________________
@@ -110,7 +110,7 @@ global.mess = {
     success: '_*Here you go!*_'
 }
 //thumbnail
-global.thumb = fs.readFileSync('./XliconMedia/theme/xliconpic.jpg')
+global.thumb = fs.readFileSync('./XliconMedia/theme/cbdbcc4b11d1f3a000e6f091280244e1.jpg')
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
