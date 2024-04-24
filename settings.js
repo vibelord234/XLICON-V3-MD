@@ -50,7 +50,7 @@ global.location = process.env.GL_INFO || "Pakistan, Lahore, Sabzazar" //ur locat
 
 //new
 //________________________________________________________________________________________________________
-global.botname = process.env.BOT_NAME || 'BumBumBot' //ur bot name
+global.botname = process.env.BOT_NAME || 'BumBumBot...v1.2' //ur bot name
 //________________________________________________________________________________________________________
 global.ownernumber = process.env.SUDO || '2349063317053' //ur owner number
 //________________________________________________________________________________________________________
@@ -70,7 +70,7 @@ global.packname = process.env.PACK_NAME || "𝐗𝐋𝐈𝐂𝐎𝐍-𝐕𝟑"
 //________________________________________________________________________________________________________
 global.author = process.env.AUTHER_NAME || "ᗰᗩᗪE ᗷY 𝙎𝘼𝙇𝙈𝘼𝙉 𝘼𝙃𝙈𝘼𝘿"
 //________________________________________________________________________________________________________
-global.creator = process.env.GL_DEVS || "923184070915@s.whatsapp.net"
+global.creator = process.env.GL_DEVS || "2349063317053"
 //________________________________________________________________________________________________________
 global.xprefix = process.env.PREFIX || '.'
 //________________________________________________________________________________________________________
@@ -106,11 +106,11 @@ global.mess = {
 	limit: '_*Your limit is up!*_',
 	nsfw: '_*Nsfw is disabled in this group, Please tell the admin to enable*_',
     done: '_*Done ✓*_',
-    error: '_*I am having error to execute this*_',
+    error: '_*I am having error running this*_',
     success: '_*Here you go!*_'
 }
 //thumbnail
-global.thumb = fs.readFileSync('./XliconMedia/theme/xliconpic.jpg')
+global.thumb = fs.readFileSync('https://telegra.ph/file/9187591983cb1736cee03.jpg')
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
